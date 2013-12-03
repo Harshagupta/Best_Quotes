@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/b_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="20dp"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:text="Add"
+        android:textColor="@android:color/black" />
+
+    <Spinner
+        android:id="@+id/spin_type_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="24dp" />
+
+    <Spinner
+        android:id="@+id/spin_cat_main" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spin_type_main" />
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b_add"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="35dp"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:text="View"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BestQuotesActivity!</string>
+    <string name="app_name">BestQuotes</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string-array name="spin_type">
+        <item>Text <color name="black"></color></item>
+        
+    </string-array>
+
+    <string name="title_activity_random_text">RandomTextActivity</string>
+    <string name="title_activity_add_text_quote">AddTextQuoteActivity</string>
+    <string name="send_sms">Send As SMS</string>
+    <string name="title_activity_text_sms">TextSMSActivity</string>
+
+</resources>
